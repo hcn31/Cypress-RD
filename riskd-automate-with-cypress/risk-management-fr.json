@@ -1,0 +1,338 @@
+{
+  "add": "Ajouter",
+  "addAsset": "Ajouter un asset",
+  "addCrisis": "signaler une crise",
+  "alerts": "notifications",
+  "assets": "Assets",
+  "associatedMentions": "Mentions associées",
+  "chooseSeverity": "choisir la gravité",
+  "chooseImpact": "choisir l'impact",
+  "close": "Fermer",
+  "connect": "connecter",
+  "country": "pays",
+  "crises": "crises",
+  "crisesWithNoWarningsMessage": "Cette crise n'a pas d'alertes",
+  "earlyWarnings": "Alertes précoces",
+  "earlyWarningSystem": "Système d'alerte précoce",
+  "errorMessage": "Quelque chose s'est mal passé",
+  "evolutionOf": "Évolution de",
+  "finish": "terminer",
+  "impact": "Impact",
+  "interactions": "Interactions",
+  "languages": "langues",
+  "mentions": "Mentions",
+  "mention": "Mention",
+  "more": "Plus",
+  "onGoingCrises": "Crises en cours",
+  "others": "Autres",
+  "previousCrises": "Crises archivées",
+  "reach": "Portée",
+  "riskAssessmentMatrix": "Matrice d'évaluation des risques",
+  "save": "enregistrer",
+  "settings": "paramètres",
+  "severity": "Gravité",
+  "step": "étape",
+  "to": "à",
+  "type": "Type",
+  "unknownUser": "Utilisateur inconnu",
+  "unknownGroup": "Groupe inconnu",
+  "noAsset": {
+    "title": "Vous n'avez pas d'assets",
+    "description": "Ajoutez un nouvel asset pour commencer"
+  },
+  "ignoreWarning": {
+    "title": "Ignorer l'avertissement",
+    "content": "Êtes-vous sûr de vouloir ignorer cet avertissement ?",
+    "ignore": "ignorer",
+    "ignoring": "ignorant..."
+  },
+  "archiveCrises": {
+    "title": "Archiver les crises",
+    "content": "Êtes-vous sûr de vouloir archiver cette crise ?",
+    "archive": "archiver",
+    "archiving": "archivage en cours..."
+  },
+  "unarchiveCrises": {
+    "title": "Désarchiver les crises",
+    "content": "Êtes-vous sûr de vouloir désarchiver cette crise ?",
+    "unarchive": "désarchiver",
+    "unarchiving": "désarchivage en cours..."
+  },
+  "editCrisis": {
+    "title": "Modifier la crise",
+    "edited": "La crise a été mise à jour avec succès"
+  },
+  "shareEmailContent": {
+    "emailOpening": "Bonjour,",
+    "person": "personne",
+    "people": "personnes",
+    "action": "Voir plus",
+    "warning": {
+      "description": "Jetez un œil à cet avertissement précoce détecté par Digimind Risk Detection :",
+      "reachDescription": "Le contenu de l'avertissement a été vu par un nombre estimé de"
+    },
+    "crises": {
+      "description": "Jetez un œil à cette crise détectée par Digimind Risk Detection :",
+      "reachDescription": "Le contenu de cette crise a été vu par un nombre estimé de"
+    }
+  },
+  "facetDialog": {
+    "title": "Facette de gestion des risques"
+  },
+  "markAsCrisis": {
+    "title": "Marquer comme crise",
+    "createNewCrisis": "Créer une nouvelle crise",
+    "richEditorPlaceHolder": "Nom de la crise",
+    "addOnGoingCrisis": "Ou ajouter à une crise en cours",
+    "metricDescription": "Par défaut, la plus haute valeur de ${value} entre l'avertissement et la crise sera appliquée"
+  },
+  "notificationSystem": {
+    "title": "Système de notification",
+    "notificationUser": "Envoyer une notification unique à",
+    "notificationPlatforms": "Comment souhaitez-vous envoyer cette notification ?",
+    "notificationContent": "Contenu de la notification",
+    "AlertContent": "Contenu de l'alerte",
+    "subject": "Nouvel avertissement marqué comme crise",
+    "skip": "Passer",
+    "send": "Envoyer",
+    "sending": "Envoi"
+  },
+  "manageAsset": {
+    "title": "Surveiller les risques concernant",
+    "riskAboutAssetTypeTitle": "Risques concernant ${asset}",
+    "riskAboutAssetTypeDescription": "Sélectionnez les risques potentiels que vous souhaitez surveiller autour de votre asset.",
+    "notificationsTitle": "notifications",
+    "notificationsDescription": "Définissez les notifications que vous souhaitez recevoir lorsque nous détectons des alertes autour de votre asset.",
+    "monitorACustomAsset": "surveiller un asset personnalisé",
+    "keywords": "mots-clés",
+    "hashtags": "hashtags",
+    "custom": "personnalisé",
+    "switchToAdvancedQuery": "Passer à la requête avancée",
+    "booleanQuery": "Requête booléenne",
+    "addSynonym": "Ajouter un synonyme",
+    "assetName": "Nom de l'asset",
+    "socialAccounts": "Comptes sociaux",
+    "advancedSettings": "paramètres avancés",
+    "brand": "marque",
+    "brandDescription": "Détecter les crises potentielles autour de l'une de vos marques.",
+    "keyPeople": "Personnes clés",
+    "keyPeopleDescription": "Détecter les crises potentielles autour de l'une de vos personnes clés",
+    "brandAmbassador": "Ambassadeur de la marque",
+    "brandAmbassadorDescription": "Détecter les crises potentielles autour de l'un de vos ambassadeurs de marque",
+    "product": "produit",
+    "productDescription": "Détecter les crises potentielles autour de l'un de vos produits de marque",
+    "campaign": "campagne",
+    "campaignDescription": "Détecter les crises potentielles autour de l'une de vos campagnes",
+    "industry": "industrie",
+    "industryDescription": "Détecter les crises potentielles autour de l'une de vos industries",
+    "customInfluencerDescription": "Chaque auteur déclenchera une alerte lorsqu'il mentionnera votre asset dans une publication sur les réseaux sociaux.",
+    "riskTermDesc": "Chaque mot-clé déclenchera une alerte lorsqu'il sera associé à votre asset dans une publication sur les réseaux sociaux.",
+    "richEditorPlaceholder": "Réutiliser les sources d'écoute importées, uniquement Twitter, une source par ligne",
+    "helpCenter": "Pour en savoir plus, consultez notre centre d'aide",
+    "addUpKeywords": " Vous pouvez ajouter jusqu'à 100 mots-clés.",
+    "signIn": "Se connecter à",
+    "myPage": "Ma page",
+    "otherPage": "Autre page",
+    "dailyDigestLabel": "Activer le résumé quotidien",
+    "dailyDigestDescription": "Recevez un résumé quotidien par e-mail sur les risques autour de votre asset. En savoir plus",
+    "realtimeNotificationsLabel": "Activer la notification en temps réel",
+    "realtimeNotificationsDescription": "Recevez une notification chaque fois qu'une nouvelle alerte est détectée autour de votre asset. En savoir plus",
+    "riskTypesTitle": "Types de risques",
+    "recipients": "Destinataires",
+    "monitorRisk": {
+      "title": "Dites-nous-en plus sur votre ${assetType}",
+      "subTitle": "Quels mots-clés ou termes décrivent le mieux votre ${assetType} ?"
+    }
+  },
+  "deleteAsset": {
+    "title": "Êtes-vous sûr de vouloir supprimer cet asset ?",
+    "confirmationMessage": "Pour confirmer la suppression, veuillez taper",
+    "deletionInProgress": "Suppression en cours. Cela peut prendre quelques instants...",
+    "warning": {
+      "content": "La suppression de cet élément entraînera automatiquement la suppression des éléments suivants :",
+      "list": [
+        "Tous les avertissements associés à cet asset",
+        "Toutes les crises associées à cet asset",
+        "Toutes les notifications associées à cet asset"
+      ]
+    }
+  },
+  "assetTypes": {
+    "BRAND": "Marque",
+    "KEY_PEOPLE": "Personnes Clés",
+    "BRAND_AMBASSADOR": "Ambassadeur de la Marque",
+    "PRODUCT": "Produit",
+    "CAMPAIGN": "Campagne",
+    "INDUSTRY": "Industrie",
+    "CUSTOM": "Éléments Personnalisés"
+  },
+  "facet": {
+    "actions": {
+      "editAsset": "Modifier l'élément",
+      "deleteAsset": "Supprimer l'élément",
+      "resetFilters": "Réinitialiser les éléments sélectionnés"
+    }
+  },
+  "actions": {
+    "ignore": "Ignorer",
+    "markAsCrisis": "Marquer comme crise",
+    "analyze": "Analyser",
+    "share": "Partager",
+    "more": "Plus",
+    "archive": "Archiver",
+    "unarchive": "Désarchiver",
+    "edit": "Modifier"
+  },
+  "reportAnalysis": {
+    "analysis": "Analyse",
+    "riskSpottedOn": "Risque détecté le",
+    "mentions": "Mentions",
+    "topAuthor": "Auteur principal",
+    "assetsSOVHelpMessage": "Note : Ce graphique affiche les 6 premiers assets.",
+    "graphTitle": {
+      "keyHashtag": "hashtag clé",
+      "keyConcept": "concept clé",
+      "crises": {
+        "overview": "Aperçu de la crise",
+        "impact": "Impact de cette crise",
+        "influencerTable": "Qui alimente les conversations sur cette crise",
+        "keyTopics": "Quels sont les sujets clés de cette crise",
+        "keyConcept": "Quels sont les sujets clés de cette crise",
+        "picturesWall": "La crise en images",
+        "where": "Où se déroule cette crise",
+        "topMentionsSocial": "Les top publications sur les réseaux sociaux liées à la crise",
+        "topMentionsWeb": "Les top actualités liées à la crise",
+        "assetsShareOfVoice": "Comment mes assets sont affectés par les crises"
+      },
+      "warnings": {
+        "overview": "Aperçu de l'avertissement",
+        "impact": "Impact de cet avertissement",
+        "influencerTable": "Qui alimente les conversations sur cet avertissement",
+        "keyTopics": "Quels sont les sujets clés de cet avertissement",
+        "keyConcept": "Quels sont les sujets clés de cet avertissement",
+        "picturesWall": "Avertissement en images",
+        "where": "Où se déroule cet avertissement ?",
+        "topMentions": "Quelles sont les principales mentions associées à l'avertissement"
+      }
+    },
+    "sections": {
+      "overview": "Aperçu",
+      "impact": "Impact",
+      "influencerTable": "Tableau des influenceurs",
+      "keyTopics": "Hashtag clé & concept clé",
+      "picturesWall": "Mur d'images",
+      "where": "Où",
+      "topMentions": "Principales mentions",
+      "assetsShareOfVoice": "Part de voix des assets",
+      "topMentionsSocial": "Principales mentions sur les réseaux sociaux",
+      "topMentionsWeb": "Principales mentions sur le Web"
+    },
+    "exports": {
+      "crisisReport": "Rapport de crise",
+      "warningReport": "Rapport d'avertissement",
+      "slides": "Exportation PowerPoint",
+      "pdfDoc": "Exportation PDF"
+    }
+  },
+  "warningContent": {
+    "linkedWith": "lié avec",
+    "mentionedBy": "mentionné par",
+    "unusualBigInfluerncers": "influenceurs inhabituellement importants",
+    "times": "fois",
+    "politicalFigure": "Une figure politique",
+    "viewOnline": "Voir en ligne",
+    "negativeSentimentIncrease": {
+      "title": "Sentiment négatif à propos de",
+      "label": "Sentiment en baisse",
+      "increase": "augmentation de",
+      "descriptionIncrease": "Le sentiment négatif à propos de ${asset} a augmenté de ${variation} au cours des ${dateRange}",
+      "negativeMention": "Mentions négatives"
+    },
+    "volumeGrowth": {
+      "title": "Conversation à propos de",
+      "label": "Croissance inhabituelle du volume",
+      "increase": "a augmenté de",
+      "descriptionIncrease": "La conversation à propos de ${asset} a augmenté de ${variation} au cours des ${dateRange}",
+      "mentions": "Mentions"
+    }
+  },
+  "warningCard": {
+    "learnMore": "En savoir plus",
+    "title": "Carte d'avertissement",
+    "detectionDate": "Date de détection",
+    "severityDetail": "Gravité estimée de la crise/avertissement, alimentée par l'IA.",
+    "impactDetail": "Impact sur le volume global de conversations de la marque.",
+    "reachDetail": "Estimation du nombre d'utilisateurs ayant vu le contenu.",
+    "digimindRisk": "Nous émettons immédiatement un avertissement dès que nous détectons un influenceur inhabituellement important ou une augmentation significative du volume de mentions. Notre IA a été formée pour détecter et identifier avec précision les types de risques les plus critiques."
+  },
+  "notificationRules": {
+    "title": "Règles de notification",
+    "addNotification": "Ajouter une règle de notification",
+    "description": "Gérez vos règles de notification existantes."
+  },
+  "riskTypes": {
+    "RISK_TERM": "Risque signalé par AI SENSE",
+    "CUSTOM_RISK_TERM": "Termes de risque personnalisés",
+    "BIG_INFLUENCER": "Influenceur inhabituellement important",
+    "CUSTOM_INFLUENCER": "Auteur personnalisé",
+    "VOLUME_GROWTH": "Croissance inhabituelle du volume",
+    "US_POLITICS": "Politique des États-Unis"
+  },
+  "riskTypesDescriptions": {
+    "RISK_TERM": "Déclenchera un avertissement lorsque nos algorithmes alimentés par l'IA détectent un terme de risque dans une conversation associée à cet asset.",
+    "CUSTOM_RISK_TERM": "Déclenchera un avertissement lorsque nous détectons l'un de vos termes personnalisés dans une conversation associée à cet asset.",
+    "CUSTOM_INFLUENCER": "Déclenchera un avertissement lorsqu'un auteur personnalisé mentionne cet asset.",
+    "BIG_INFLUENCER": "Déclenchera un avertissement lorsqu'un influenceur inhabituellement important mentionne cet asset.",
+    "VOLUME_GROWTH": "Déclenchera un avertissement lorsque nous détectons un volume inhabituel de conversations autour de cet asset.",
+    "US_POLITICS": "Déclenchera des avertissements lorsqu'un politicien élu mentionne l'un de mes assets"
+  },
+  "notificationsTypes": {
+    "MAIL": "Email",
+    "SMS": "SMS"
+  },
+  "severities": {
+    "HIGH": "Majeure",
+    "MEDIUM": "Moyenne",
+    "LOW": "Mineure"
+  },
+  "impacts": {
+    "HIGH": "Majeur",
+    "MEDIUM": "Moyen",
+    "LOW": "Mineur"
+  },
+  "notificationDescriptions": {
+    "assetsDescription": "Pour chaque nouvelle alerte concernant",
+    "riskTypesDescription": "et types de risque",
+    "severitiesDescription": "avec une gravité",
+    "notificationTypeDescription": "Envoyer une notification par"
+  },
+  "triggerForm": {
+    "title": "Pour chaque nouvelle alerte",
+    "about": "concernant",
+    "severity": "a une Gravité",
+    "riskType": "liée au Type de Risque"
+  },
+  "actionForm": {
+    "title": "Envoyer une Notification",
+    "via": "via",
+    "to": "à"
+  },
+  "deleted": {
+    "action": "Supprimer",
+    "loading": "Suppression...",
+    "title": "Supprimer la Notification",
+    "content": "Voulez-vous supprimer cette notification"
+  },
+  "active": {
+    "action": "Activer",
+    "loading": "Activation...",
+    "title": "Activer la Notification ",
+    "content": "Voulez-vous activer cette notification"
+  },
+  "disabled": {
+    "action": "Désactiver",
+    "loading": "Désactivation...",
+    "title": "Désactiver la Notification ",
+    "content": "Voulez-vous désactiver cette notification"
+  }
+}

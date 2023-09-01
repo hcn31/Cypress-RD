@@ -1,0 +1,52 @@
+{
+  "addAsset": {
+    "assetName": ["Adidas", "Brand"],
+    "configAsset0": null,
+    "configAsset1": {
+      "advanced": "0",
+      "hashtag": ["Adidas", "Clothes", "Messi"],
+      "countries": ["France"],
+      "languages": ["Arabic"],
+      "riskType": {
+        "1": 0,
+        "2": 0,
+        "3": 1,
+        "4": 0,
+        "5": [
+          ["Messi", "0"],
+          ["T-Shirt", "2"]
+        ],
+        "6": [
+          ["https://twitter.com/adidas?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor", "1"],
+          ["https://twitter.com/TeamMessi", "2"]
+        ],
+        "7": 1
+      }
+    }
+  },
+  "markCrise": {
+    "asset": "Adidas",
+    "riskType": "Risk signaled by AI SENSE",
+    "configCrise0": null,
+    "configCrise1": {
+      "criseName": "",
+      "severity": "Minor",
+      "impact": "Minor",
+      "GoingCrisis": "ferrari mentioned by unusual big influencers"
+    }
+  },
+  "criseData": {
+    "criseName": "ferrari mentioned by unusual big influencers",
+    "severity": "Minor",
+    "impact": "Minor",
+    "reach": 45000
+  },
+  "warningData": {
+    "warningName": "Investigation linked with Adidas",
+    "topAuthor": "co.uk",
+    "severity": "Minor",
+    "impact": "Minor",
+    "reach": "5.4K",
+    "mentions": 4
+  }
+}
